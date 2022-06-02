@@ -1,0 +1,5 @@
+.nav li:hover {
+  background-color: white;
+  color: #19355d;
+  font-weight: bold;
+}
