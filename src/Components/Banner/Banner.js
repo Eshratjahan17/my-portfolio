@@ -1,63 +1,17 @@
 import React from 'react';
+import './Banner.css';
 
 const Banner = () => {
   return (
-    <div>
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
-          <img
-            src="https://api.lorem.space/image/car?w=800&h=200&hash=8B7BCDC2"
-            class="w-full"
-          />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide2" class="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide2" class="carousel-item relative w-full">
-          <img
-            src="https://api.lorem.space/image/car?w=800&h=200&hash=500B67FB"
-            class="w-full"
-          />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide3" class="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <img
-            src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6"
-            class="w-full"
-          />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide4" class="btn btn-circle">
-              ❯
-            </a>
-          </div>
-        </div>
-        <div id="slide4" class="carousel-item relative w-full">
-          <img
-            src="https://api.lorem.space/image/car?w=800&h=200&hash=225E6693"
-            class="w-full"
-          />
-          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle">
-              ❮
-            </a>
-            <a href="#slide1" class="btn btn-circle">
-              ❯
-            </a>
+    <div className="banner-bg">
+      <div class="hero min-h-screen banner ">
+        <div class="hero-overlay bg-opacity-30 bg-black"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md text-white">
+            <h1 class="mb-5 text-5xl font-bold">I'M Eshrat Jahan,</h1>
+            <h2 class="mb-5 text-3xl "> A Frontend Developer</h2>
+
+            <button class="btn glass  text-white outline">Projects</button>
           </div>
         </div>
       </div>
