@@ -1,15 +1,17 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
+import MyResume from './Components/Home/MyResume/MyResume';
 
 function App() {
   return (
-    <div >
-     <Header></Header>
-     
-     <Footer></Footer>
+    <div>
+      <Header></Header>
+      
+
+      <Footer></Footer>
     </div>
   );
 }
