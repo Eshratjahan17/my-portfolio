@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from '../Banner/Banner';
 import './Header.css';
 
@@ -60,9 +59,9 @@ const Header = () => {
         <div class="navbar-end">
           <a
             target="_blank"
-            class="btn glass bg-black  text-white"
+            class="btn glass bg-black  text-white outline"
             href="https://drive.google.com/file/d/1jif1ZCzCABcPZy-bLu_pXDcvNgELMsmG/view?usp=sharing" rel="noreferrer"
-            download
+            download 
           >
             My Resume
           </a>

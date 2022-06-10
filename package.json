@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "tsparticles": "^2.0.6"
   }
 }
