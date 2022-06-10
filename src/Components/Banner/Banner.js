@@ -16,8 +16,8 @@ const Banner = () => {
 //    console.log(container);
 //  };
   return (
-     <div className="banner-bg">
-    {/* // <div className="banner-bg">
+    <div className="banner-bg">
+      {/* // <div className="banner-bg">
     //   <Particles
     //     id="tsparticles"
     //     init={particlesInit}
@@ -96,7 +96,7 @@ const Banner = () => {
     //     }}
     //   /> */}
       <div class="hero min-h-screen banner  ">
-        <div class="hero-overlay bg-opacity-30 bg-black"></div>
+        <div class="hero-overlay bg-opacity-30 bg-primary"></div>
         <div class="hero-content text-center text-neutral-content">
           <div class="max-w-md text-white">
             <h1 class="mb-5 text-5xl font-bold">I'M Eshrat Jahan,</h1>
@@ -106,7 +106,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };

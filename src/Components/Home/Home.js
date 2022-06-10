@@ -1,10 +1,15 @@
-import About from '../About/About';
+import About from "./About/About";
+import Contact from "./Contact/Contact";
+import FeaturedProjects from "./FeaturedProjects/FeaturedProjects";
+
 
 
 const Home = () => {
   return (
     <div>
-      <About></About>
+     <About></About>
+     <FeaturedProjects></FeaturedProjects>
+     <Contact></Contact>
       
 
     </div>

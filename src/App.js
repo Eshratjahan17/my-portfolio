@@ -5,7 +5,7 @@ import './App.css';
 
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
-import About from './Components/Home/About/About';
+import Home from './Components/Home/Home';
 import MyResume from './Components/MyResume/MyResume';
 
 
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/myresume" element={<MyResume></MyResume>}></Route>
       </Routes>
-      <About></About>
+      <Home></Home>
 
       <Footer></Footer>
     </div>

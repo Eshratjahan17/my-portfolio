@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="nav">
-      <div class="navbar ">
+      <div class="navbar bg-primary ">
         <div class="navbar-start">
           <div class="dropdown ">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const Header = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-black rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
             >
               <li>
                 <a href="#about">About</a>
@@ -49,7 +49,7 @@ const Header = () => {
               <a href="#about">About</a>
             </li>
             <li tabindex="0">
-              <a href="#projects">Projects</a>
+              <a href="#featuredProjects">Projects</a>
             </li>
             <li>
               <a href="#contact">Contact</a>
@@ -59,9 +59,10 @@ const Header = () => {
         <div class="navbar-end">
           <a
             target="_blank"
-            class="btn glass bg-black  text-white outline"
-            href="https://drive.google.com/file/d/1jif1ZCzCABcPZy-bLu_pXDcvNgELMsmG/view?usp=sharing" rel="noreferrer"
-            download 
+            class="btn glass bg-primary text-white outline"
+            href="https://drive.google.com/file/d/1jif1ZCzCABcPZy-bLu_pXDcvNgELMsmG/view?usp=sharing"
+            rel="noreferrer"
+            download
           >
             My Resume
           </a>

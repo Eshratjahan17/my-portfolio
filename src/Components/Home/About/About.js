@@ -1,25 +1,33 @@
 import facebook from "../../../assets/icons/facebook.svg";
-import github from '../../../assets/icons/github.svg';
-import linkedin from '../../../assets/icons/linkedin.svg';
-import myImg from '../../../assets/images/myImg.png';
+import github from "../../../assets/icons/github.svg";
+import linkedin from "../../../assets/icons/linkedin.svg";
+import myImg from "../../../assets/images/myImg.png";
 const About = () => {
   return (
-    <div>
-      <div class="hero min-h-screen bg-base-200 ">
-        <div class="hero-content flex-col lg:flex-row w-4/5 bg-base-200">
+    <div id="about" className="bg-primary">
+      <div>
+        <h1 class="text-5xl text-white font-bold text-center pt-5 ">About</h1>
+        <div class="divider w-1/4 mx-auto white "></div>
+      </div>
+      <div class="hero min-h-screen  bg-primary shadow-2xl ">
+        <div class="hero-content flex-col lg:flex-row w-4/5 text-white ">
           <img src={myImg} class="max-w-sm rounded-lg shadow-2xl  mr-8" />
           <div>
             <h1 class="text-5xl font-bold ">Eshrat Jahan Bonna</h1>
-            <h1 class="text-2xl font-semibold ">Fronentd Developer</h1>
+            <p class="text-2xl font-semibold ">Fronentd Developer</p>
             <p class="py-6 ">
               I am a professional Frontend Developer. I have a strong grip on
-              JavaScript, and React. I also have experience with Cloud Services
-              like AWS, Firebase, Heroku, etc. I have experience In Responsive
-              Web and vanilla Css and its Frame works like Bootstrap, Tailwind.
-              I also have experience with Graphics design and UI design.I love
-              to take on challenges and love to explore and learn new
-              technologies.
+              JavaScript, and React. I have experience In Responsive Web and
+              vanilla Css and its Frame works like Bootstrap, Tailwind. I also
+              have experience with Graphics design and UI design.I love to take
+              on challenges and love to explore and learn new technologies.
             </p>
+            {/* <div class="divider"></div> 
+            <div>
+              <ul>
+                <li></li>
+              </ul>
+            </div> */}
             <div className="social flex ">
               <a
                 href="https://www.linkedin.com/in/eshratjahan17/"
