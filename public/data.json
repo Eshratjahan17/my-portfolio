@@ -1,60 +1,44 @@
 [
   {
-    "id": "62a3632c6a41540f8950cecf",
-    "picture": "https://prnt.sc/LOKxp8eyIhmg",
+    "picture": "https://i.ibb.co/23DGhkJ/manufacture.png",
     "name": "All time car parts",
     "about": "It is car parts manufacture website .Users can Order any Car parts.Users can log in with their Gmail.For authentication, firebase authentication has been used.Admin panel can use CRUD operation with MongoDB atlas.Users can give reviews and see their orders.\r\n",
+    "technologies": "React,Tailwind,Firebase,Express,Mongodb,Strip",
     "live": "https://car-parts-manufacture.firebaseapp.com/",
     "client": "https://github.com/Eshratjahan17/manufacturer-website-client-side-website-client-side",
     "server": "https://github.com/Eshratjahan17/manufacturer-website-server-side"
   },
   {
-    "id": "62a3632cd537271398b72d74",
-    "picture": "https://prnt.sc/y0keOo9rx84r",
+    "picture": "https://i.ibb.co/Ldpxk6V/management.png",
     "name": "SB WareHouse",
-    "about": "It is an warehouse management system . Admins can increase or    decrease product quantity.To Manage quantity admin must have to log in .Firebase authentication has been used for authentication.\r\n",
+    "about": "It is an warehouse management system.Admins can increase or decrease product quantity.To Manage quantity admin must have to log in .Firebase authentication has been used for authentication.\r\n",
+    "technologies": "React,Bootstrap,Firebase,Express,Mongodb",
     "live": "https://warehouse-977a4.web.app/",
     "client": "https://github.com/Eshratjahan17/warehouse-management-client-side",
     "server": "https://github.com/Eshratjahan17/manufacturer-website-server-side"
   },
   {
-    "id": "62a3632ca37b0c1989bfeece",
-    "picture": "https://prnt.sc/CxbWWnnFA3Bl",
+    "picture": "https://i.ibb.co/GRJfcr6/relish.png",
     "name": "Relish Wedding",
     "about": "My website is for a Wedding Photographer.It Contains About Photographer.His Services and Packages pricing is shown here.Here is a blog section also.Here is log in section for previous users and register section for new users to buy his pakages.\r\n",
+    "technologies": "React,Bootstrap,Firebase",
     "live": "https://independent-service-prov-d0bbd.web.app/",
     "github": "https://github.com/Eshratjahan17/independent-service-provider"
   },
   {
-    "id": "62a3632c2e25c949037fdd76",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://i.ibb.co/nPqskxF/laptop.png",
     "name": "Laptop review",
-    "about": "Irure eiusmod deserunt culpa aliqua consectetur minim. Ad ea voluptate deserunt anim proident sint proident dolor eu aliquip. Duis esse exercitation non id nulla deserunt veniam et. Ipsum enim enim cupidatat laboris est aliqua elit. Magna minim laboris et qui adipisicing laboris duis reprehenderit dolore deserunt irure.\r\n",
+    "about": "It is a laptop reviwe site .where anyone can see the rewiews of other people about specific laptop.\r\n",
+    "technologies": "React,React Hooks,Bootstrap,Jsx,Vanilla CSS",
     "live": "https://laptopreviwes.netlify.app/",
-    "github": "http://placehold.it/32x32"
+    "github": "https://github.com/Eshratjahan17/product-analysis-website"
   },
   {
-    "id": "62a3632cf0f27ac359a3d396",
-    "picture": "http://placehold.it/32x32",
+    "picture": "https://i.ibb.co/09YswnG/phone.png",
     "name": "Lucky Phone Winner",
-    "about": "Nostrud est minim cupidatat aliqua labore aliquip excepteur aliquip minim tempor nostrud. Culpa quis ut do ea non duis cillum incididunt non exercitation mollit id consectetur. Proident ipsum pariatur eu nisi voluptate quis et reprehenderit commodo officia in aute. Culpa sint incididunt Lorem tempor dolor do amet. Velit enim commodo non commodo aute sint magna aliqua consectetur velit sint aliqua. Magna sint officia aliquip est.\r\n",
+    "about": "It is a contest website.where a phone can be choosen randomly for a lucky customer.\r\n",
+    "technologies": "React,Bootstrap,Vanilla CSS",
     "live": "https://luckyphonewinner.netlify.app/",
-    "github": "http://placehold.it/32x32"
-  },
-  {
-    "id": "62a3632c5295e4955a871802",
-    "picture": "http://placehold.it/32x32",
-    "name": "Lea Ingram",
-    "about": "Nulla dolor qui consectetur sint excepteur aute sint officia proident commodo ullamco anim. Incididunt dolore adipisicing aute ex veniam do id aute. Velit cupidatat sit nisi in ea ad fugiat incididunt. Reprehenderit consectetur excepteur est culpa eiusmod proident ullamco cupidatat fugiat culpa. Irure eu adipisicing fugiat ad labore sit ex esse culpa. Dolor occaecat velit esse ea. Dolor est nisi ipsum aliquip consequat esse anim ea laborum non consequat minim nulla.\r\n",
-    "live": "http://placehold.it/32x32",
-    "github": "http://placehold.it/32x32"
-  },
-  {
-    "id": "62a3632cd06b9992f3cd9de9",
-    "picture": "http://placehold.it/32x32",
-    "name": "Verna Olsen",
-    "about": "Exercitation ullamco anim ullamco ex non dolor commodo enim minim excepteur. Ipsum excepteur adipisicing enim minim aliquip cupidatat qui aute laboris veniam sint labore velit deserunt. Nisi est cupidatat ipsum dolor.\r\n",
-    "live": "http://placehold.it/32x32",
-    "github": "http://placehold.it/32x32"
+    "github": "https://github.com/Eshratjahan17/lucky-one"
   }
 ]

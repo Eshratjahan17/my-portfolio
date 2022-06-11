@@ -1,4 +1,3 @@
-import Banner from '../Banner/Banner';
 import './Header.css';
 
 
@@ -68,7 +67,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <Banner></Banner>
+      
     </div>
   );
 };
