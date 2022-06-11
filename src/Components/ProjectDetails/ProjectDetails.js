@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Carosel from "../Carosel";
+import Carosel from "../Carosel/Carosel";
+
 
 const ProjectDetails = () => {
 const [details, setDetails] = useState([]);
@@ -14,61 +15,44 @@ useEffect(()=>{
     });
 
 },[])
-console.log(details.ss);
-const screenShorts = details.ss;
-console.log(screenShorts);
+console.log(details);
+const {img1,img2,img3,img4}=details;
+console.log(img1, img2, img3, img4);
+
 
 
   return (
-    <div className="bg-primary text-white">
+    <div className="bg-primary ">
       <div>
-        <h1 class="text-5xl font-bold text-center pt-5 ">{details.name}</h1>
+        <h1 class="text-5xl font-bold text-center pt-5 text-white ">
+          {details.name}
+        </h1>
         <div class="divider w-1/4 mx-auto "></div>
       </div>
 
       <div class="carousel carousel-center ">
-        {
-          screenShorts.map((image)=><Carosel
-          image={image}
-          ></Carosel>)
-        }
-        {/* {screenShorts.map((img) => (
-          <div>
-            <div class="carousel-item">
-              <img src={img.img1} alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-              <img src={img.img2} alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-              <img src={img.img3} alt="Pizza" />
-            </div>
-            <div class="carousel-item">
-              <img src={img.img4} alt="Pizza" />
-            </div>
-          </div>
-        ))} */}
+        {<Carosel img1={img1} img2={img2} img3={img3} img4={img4}></Carosel>}
       </div>
 
-      <div>
-        <div class="hero min-h-screen ">
-          <div class="hero-content flex items-center justify-center ">
-            <div>
-              <h1 class="text-3xl font-bold">About Project</h1>
-              <p class="py-6 text-xl">{details.about}</p>
-              <h1 class="text-3xl font-bold">Technologies Used</h1>
-              <p class="py-6 text-xl">{details.technologies}</p>
-              <button class="btn btn-secondary mr-3">
+      <div className="flex justify-center items-center">
+        <div class="card w-96 bg-base-200 shadow-xl my-9">
+          <div class="card-body">
+            <h2 class="card-title">About Project</h2>
+            <p>{details.about}</p>
+            <h2 class="card-title">Technologies Used</h2>
+            <p class=" ">{details.technologies}</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-xs btn-secondary mr-3">
                 <a target="_blank" href={details.live} rel="noreferrer">
                   Live site
                 </a>
               </button>
-              <button class="btn btn-secondary mr-3">
+              <button class="btn btn-xs btn-secondary mr-3">
                 <a target="_blank" href={details.github} rel="noreferrer">
                   Github
                 </a>
               </button>
-              <button class="btn btn-secondary mr-3">
+              <button class="btn btn-xs btn-secondary mr-3">
                 <a target="_blank" href={details?.server} rel="noreferrer">
                   Server
                 </a>

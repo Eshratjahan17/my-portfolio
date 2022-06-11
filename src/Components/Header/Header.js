@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import './Header.css';
 
 
@@ -28,10 +29,15 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-primary rounded-box w-52"
             >
               <li>
+                <Link to="/home">Home</Link>
+              </li>
+              <li>
                 <a href="#about">About</a>
               </li>
               <li tabindex="0">
-                <a class="justify-between">Projects</a>
+                <a href="#featuredProjects" class="justify-between">
+                  Projects
+                </a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
@@ -44,6 +50,9 @@ const Header = () => {
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
             <li>
               <a href="#about">About</a>
             </li>
@@ -67,7 +76,6 @@ const Header = () => {
           </a>
         </div>
       </div>
-      
     </div>
   );
 };

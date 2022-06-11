@@ -18,8 +18,10 @@ function App() {
       <Header></Header>
 
       <Routes>
-        <Route path="/myresume" element={<MyResume></MyResume>}></Route>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/myresume" element={<MyResume></MyResume>}></Route>
+
         <Route
           path="/projectDetails/:id"
           element={<ProjectDetails></ProjectDetails>}
