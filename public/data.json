@@ -5,7 +5,7 @@
     "about": "It is car parts manufacture website .Users can Order any Car parts.Users can log in with their Gmail.For authentication, firebase authentication has been used.Admin panel can use CRUD operation with MongoDB atlas.Users can give reviews and see their orders.\r\n",
     "technologies": "React,Tailwind,Firebase,Express,Mongodb,Strip",
     "live": "https://car-parts-manufacture.firebaseapp.com/",
-    "client": "https://github.com/Eshratjahan17/manufacturer-website-client-side-website-client-side",
+    "github": "https://github.com/Eshratjahan17/manufacturer-website-client-side-website-client-side",
     "server": "https://github.com/Eshratjahan17/manufacturer-website-server-side"
   },
   {
@@ -14,7 +14,7 @@
     "about": "It is an warehouse management system.Admins can increase or decrease product quantity.To Manage quantity admin must have to log in .Firebase authentication has been used for authentication.\r\n",
     "technologies": "React,Bootstrap,Firebase,Express,Mongodb",
     "live": "https://warehouse-977a4.web.app/",
-    "client": "https://github.com/Eshratjahan17/warehouse-management-client-side",
+    "github": "https://github.com/Eshratjahan17/warehouse-management-client-side",
     "server": "https://github.com/Eshratjahan17/manufacturer-website-server-side"
   },
   {

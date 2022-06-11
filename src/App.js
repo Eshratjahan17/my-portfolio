@@ -21,7 +21,7 @@ function App() {
         <Route path="/myresume" element={<MyResume></MyResume>}></Route>
         <Route path="/" element={<Home></Home>}></Route>
         <Route
-          path="/projectDetails"
+          path="/projectDetails/:id"
           element={<ProjectDetails></ProjectDetails>}
         ></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
