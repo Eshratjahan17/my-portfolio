@@ -1,18 +1,22 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Carosel from "../Carosel";
 
 const ProjectDetails = () => {
 const [details, setDetails] = useState([]);
+
  let { id } = useParams();
 useEffect(()=>{
-  fetch(`http://localhost:5000/projects/${id}`)
+  fetch(`https://arcane-depths-60174.herokuapp.com/projects/${id}`)
     .then((response) => response.json())
     .then((data) => {
       setDetails(data);
     });
 
 },[])
-console.log(details);
+console.log(details.ss);
+const screenShorts = details.ss;
+console.log(screenShorts);
 
 
   return (
@@ -22,19 +26,28 @@ console.log(details);
         <div class="divider w-1/4 mx-auto "></div>
       </div>
 
-      <div class="carousel carousel-center rounded-box">
-        <div class="carousel-item">
-          <img src={details.picture} alt="Pizza" />
-        </div>
-        <div class="carousel-item">
-          <img src={details.picture} alt="Pizza" />
-        </div>
-        <div class="carousel-item">
-          <img src={details.picture} alt="Pizza" />
-        </div>
-        <div class="carousel-item">
-          <img src={details.picture} alt="Pizza" />
-        </div>
+      <div class="carousel carousel-center ">
+        {
+          screenShorts.map((image)=><Carosel
+          image={image}
+          ></Carosel>)
+        }
+        {/* {screenShorts.map((img) => (
+          <div>
+            <div class="carousel-item">
+              <img src={img.img1} alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+              <img src={img.img2} alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+              <img src={img.img3} alt="Pizza" />
+            </div>
+            <div class="carousel-item">
+              <img src={img.img4} alt="Pizza" />
+            </div>
+          </div>
+        ))} */}
       </div>
 
       <div>

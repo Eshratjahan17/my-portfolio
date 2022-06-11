@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 const useData = () => {
   const [projects,setProjects]=useState([]);
   useEffect(()=>{
-    fetch("http://localhost:5000/projects")
+    fetch("https://arcane-depths-60174.herokuapp.com/projects")
     .then(res=>res.json())
     .then(data=>{
       console.log(data);
