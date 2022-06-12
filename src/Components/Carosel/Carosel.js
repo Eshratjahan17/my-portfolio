@@ -1,4 +1,3 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -13,16 +12,11 @@ import "./styles.css";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
-
 const Carosel = ({ img1, img2, img3, img4 }) => {
-  // console.log(image);
-  // const slide1 = image.img1;
-  // const slide2 = image?.img2;
-  // const slide3 = image?.img3;
-  // const slide4 = image?.img4;
-  // console.log(slide1, slide2, slide3, slide4);
+  
+
   return (
-    <div>
+    <div className="flex items-center justify-center">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -55,18 +49,6 @@ const Carosel = ({ img1, img2, img3, img4 }) => {
           <img src={img2} />
         </SwiperSlide>
       </Swiper>
-      {/* <div class="carousel-item border border-secondary">
-        <img src={image?.img1} />
-      </div>
-      <div class="carousel-item border border-secondary">
-        <img src={image?.img2} />
-      </div>
-      <div class="carousel-item border border-secondary">
-        <img src={image?.img3} />
-      </div>
-      <div class="carousel-item border border-secondary">
-        <img src={image?.img4} />
-      </div> */}
     </div>
   );
 };

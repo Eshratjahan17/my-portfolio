@@ -5,14 +5,18 @@ import myImg from "../../../assets/images/myImg.png";
 const About = () => {
   return (
     <div id="about" className="bg-primary">
-      <div>
+      <div data-aos="fade-up">
         <h1 class="text-5xl text-white font-bold text-center pt-5 ">About</h1>
-        <div class="divider w-1/4 mx-auto white "></div>
+        <div class="divider w-1/4 mx-auto h-2 bg-white "></div>
       </div>
       <div class="hero min-h-screen  bg-primary shadow-2xl ">
         <div class="hero-content flex-col lg:flex-row w-4/5 text-white ">
-          <img src={myImg} class="max-w-sm rounded-lg shadow-2xl  mr-8" />
-          <div>
+          <img
+            src={myImg}
+            data-aos="fade-right"
+            class="max-w-sm rounded-lg shadow-2xl  mr-8"
+          />
+          <div data-aos="fade-left">
             <h1 class="text-5xl font-bold ">Eshrat Jahan Bonna</h1>
             <p class="text-2xl font-semibold ">Fronentd Developer</p>
             <p class="py-6 ">

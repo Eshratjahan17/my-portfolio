@@ -5,6 +5,9 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
+import "swiper/css/bundle";
+import "./Components/Carosel/styles.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

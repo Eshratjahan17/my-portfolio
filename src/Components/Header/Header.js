@@ -40,6 +40,12 @@ const Header = () => {
                 </a>
               </li>
               <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <Link to="/blogs">Blogs</Link>
+              </li>
+              <li>
                 <a href="#contact">Contact</a>
               </li>
             </ul>
@@ -58,6 +64,12 @@ const Header = () => {
             </li>
             <li tabindex="0">
               <a href="#featuredProjects">Projects</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
             </li>
             <li>
               <a href="#contact">Contact</a>

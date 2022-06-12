@@ -22,7 +22,7 @@ console.log(img1, img2, img3, img4);
 
 
   return (
-    <div className="bg-primary ">
+    <div className="bg-primary " >
       <div>
         <h1 class="text-5xl font-bold text-center pt-5 text-white ">
           {details.name}
