@@ -4,7 +4,7 @@ import './FeaturedProject.css';
 
 const FeaturedProjects = () => {
   const [projects]=useData();
-  // console.log(projects);
+  console.log(projects);
   return (
     <div id="featuredProjects" className='w-11/12 mx-auto bg-base-200 rounded-xl py-10 my-7'>
       <div className="my-9 ">

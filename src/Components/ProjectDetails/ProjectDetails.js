@@ -8,7 +8,7 @@ const [details, setDetails] = useState([]);
 
  let { id } = useParams();
 useEffect(()=>{
-  fetch(`https://arcane-depths-60174.herokuapp.com/projects/${id}`)
+  fetch(`https://portfolio-server-823q.onrender.com/projects/${id}`)
     .then((response) => response.json())
     .then((data) => {
       setDetails(data);
